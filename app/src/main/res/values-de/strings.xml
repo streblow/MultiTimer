@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MultiTimer</string>
+    <string name="main_activity_title">MultiTimer</string>
+    <string name="add_activity_title">MultiTimer - TimeEvent neu</string>
+    <string name="edit_activity_title">MultiTimer - TimeEvent bearbeiten</string>
+    <string name="settings_activity_title">MultiTimer - Einstellungen</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_help">Hilfe</string>
+    <string name="action_about">Über</string>
+    <string name="about_title">Über</string>
+    <string name="help_title">Hilfe</string>
+    <string name="delete_title">Löschen bestätigen</string>
+    <string name="delete_message">Sind Sie sicher, dass Sie den gewählten Eintrag löschen möchten?</string>
+    <string name="ok">OK</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="main_start">Start</string>
+    <string name="main_pause">Pause</string>
+    <string name="main_stop">Stop</string>
+    <string name="main_edit">Bearbeiten</string>
+    <string name="main_add">Neu</string>
+    <string name="main_remove">Entfernen</string>
+    <string name="edit_description">Beschreibung</string>
+    <string name="edit_descriptionhint">Kurze Beschreibung eingeben.</string>
+    <string name="edit_type">Typ</string>
+    <string name="edit_countdown">Countdown</string>
+    <string name="edit_reminder">Erinnerung</string>
+    <string name="edit_time_countdown">Zeit (mm:ss)</string>
+    <string name="edit_time_reminder">Zeit (hh:mm)</string>
+    <string name="edit_recording">Aufnahme</string>
+    <string name="edit_recordingstarted">Aufnahme läuft&#8230;</string>
+    <string name="edit_start">Start</string>
+    <string name="edit_stop">Stop</string>
+    <string name="edit_play">Abspielen</string>
+    <string name="edit_delete">Löschen</string>
+    <string name="edit_open">Öffnen</string>
+    <string name="edit_save">Speichern</string>
+    <string name="edit_cancel">Abbrechen</string>
+    <string name="edit_delete_title">Löschen bestätigen</string>
+    <string name="edit_delete_message">Sind Sie sicher, dass Sie die Aufnahme löschen wollen?</string>
+    <string name="notification">Mindestens ein Timer wurde ausgelöst.</string>
+    <string name="behaviour">App-Verhalten</string>
+
+    <string-array name="behaviourTypes">
+        <item>Normale App</item>
+        <item>Wakelock</item>
+        <item>Alarmmodus</item>
+        <item>Systemnachricht</item>
+    </string-array>
+
+    <string-array name="behaviourVals">
+        <item>Normal</item>
+        <item>Wakelock</item>
+        <item>Alarm</item>
+        <item>Notify</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/settings_activity_title">
+		<ListPreference
+			android:entries="@array/behaviourTypes"
+			android:negativeButtonText="Cancel"
+			android:positiveButtonText="Okay"
+			android:dialogTitle="@string/behaviour"
+			android:entryValues="@array/behaviourVals"
+			android:selectable="true"
+			android:summary="Select the type of app\' s behaviour."
+			android:enabled="true"
+			android:title="Select behaviour"
+			android:key="prefBehaviour"
+			android:defaultValue="Normal">
+		</ListPreference>
+	</PreferenceCategory>
+</PreferenceScreen>

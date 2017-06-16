@@ -1,0 +1,6 @@
+<h2>MultiTimer</h2>
+<b>Version 1.0</b><br>
+&#169; 2017-06-16 Lars Streblow<br>
+<br>
+streblow.gmxhome.de<br>
+lars.streblow@gmx.de

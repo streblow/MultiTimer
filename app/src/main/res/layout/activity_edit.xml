@@ -1,0 +1,190 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/edit_description"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textDescription"
+            android:layout_marginLeft="20dp"
+            android:ems="10"
+            android:hint="@string/edit_descriptionhint"
+            android:inputType="text" >
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/editDescription"
+            android:layout_marginTop="10dp"
+            android:text="@string/edit_type"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioButton
+            android:id="@+id/radioCountdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textType"
+            android:layout_marginLeft="20dp"
+            android:text="@string/edit_countdown" />
+
+        <RadioButton
+            android:id="@+id/radioReminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/radioCountdown"
+            android:layout_marginLeft="20dp"
+            android:text="@string/edit_reminder" />
+
+        <TextView
+            android:id="@+id/textTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/radioReminder"
+            android:layout_marginTop="10dp"
+            android:text="@string/edit_time_reminder"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <NumberPicker
+            android:id="@+id/numberPicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textTime"
+            android:layout_marginLeft="20dp" />
+
+        <NumberPicker
+            android:id="@+id/numberPicker2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/numberPicker1"
+            android:layout_alignTop="@+id/numberPicker1"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/numberPicker1" />
+
+        <TextView
+            android:id="@+id/textRecording"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/numberPicker1"
+            android:layout_marginTop="10dp"
+            android:text="@string/edit_recording"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/textRecording" >
+            
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/buttonRecord"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"
+                    android:contentDescription="@string/edit_start"
+                    android:src="@drawable/record" />
+
+                <ImageButton
+                    android:id="@+id/buttonStop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/buttonRecord"
+                    android:layout_alignTop="@+id/buttonRecord"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/buttonRecord"
+                    android:contentDescription="@string/edit_stop"
+                    android:src="@drawable/stop" />
+
+                <ImageButton
+                    android:id="@+id/buttonPlay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/buttonRecord"
+                    android:layout_alignTop="@+id/buttonRecord"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/buttonStop"
+                    android:contentDescription="@string/edit_play"
+                    android:src="@drawable/play" />
+
+                <ImageButton
+                    android:id="@+id/buttonDelete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/buttonRecord"
+                    android:layout_alignTop="@+id/buttonRecord"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/buttonPlay"
+                    android:contentDescription="@string/edit_delete"
+                    android:src="@drawable/delete" />
+
+                <ImageButton
+                    android:id="@+id/buttonOpen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/buttonRecord"
+                    android:layout_alignTop="@+id/buttonRecord"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/buttonDelete"
+                    android:contentDescription="@string/edit_open"
+                    android:src="@drawable/open" />
+
+                </RelativeLayout>
+
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/horizontalScrollView"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:text="@string/edit_save" />
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/buttonSave"
+            android:layout_alignTop="@+id/buttonSave"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/buttonSave"
+            android:text="@string/edit_cancel" />
+
+    </RelativeLayout>
+</ScrollView>
+

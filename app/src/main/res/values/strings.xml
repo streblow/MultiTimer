@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MultiTimer</string>
+    <string name="main_activity_title">MultiTimer</string>
+    <string name="add_activity_title">MultiTimer - Add TimeEvent</string>
+    <string name="edit_activity_title">MultiTimer - Edit TimeEvent</string>
+    <string name="settings_activity_title">MultiTimer - Settings</string>
+    <string name="action_settings">Options</string>
+    <string name="action_help">Help</string>
+    <string name="action_about">About</string>
+    <string name="about_title">About</string>
+    <string name="help_title">Help</string>
+    <string name="delete_title">Confirm delete</string>
+    <string name="delete_message">Are you sure you want to delete the selected item?</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="main_start">Start</string>
+    <string name="main_pause">Pause</string>
+    <string name="main_stop">Stop</string>
+    <string name="main_edit">Edit</string>
+    <string name="main_add">Add</string>
+    <string name="main_remove">Remove</string>
+    <string name="edit_description">Description</string>
+    <string name="edit_descriptionhint">Enter short description</string>
+    <string name="edit_type">Type</string>
+    <string name="edit_countdown">Countdown</string>
+    <string name="edit_reminder">Reminder</string>
+    <string name="edit_time_countdown">Time (mm:ss)</string>
+    <string name="edit_time_reminder">Time (hh:mm)</string>
+    <string name="edit_recording">Recording</string>
+    <string name="edit_recordingstarted">Recording started&#8230;</string>
+    <string name="edit_start">Start</string>
+    <string name="edit_stop">Stop</string>
+    <string name="edit_play">Play</string>
+    <string name="edit_delete">Delete</string>
+    <string name="edit_open">Open</string>
+    <string name="edit_save">Save</string>
+    <string name="edit_cancel">Cancel</string>
+    <string name="edit_delete_title">Confirm remove</string>
+    <string name="edit_delete_message">Are you sure you want to remove the recorded audio?</string>
+    <string name="notification">At least one timer has been fired.</string>
+    <string name="behaviour">App\'s behaviour</string>
+
+    <string-array name="behaviourTypes">
+        <item>Normal app</item>
+        <item>Wakelock</item>
+        <item>Alarm mode</item>
+        <item>Notify</item>
+    </string-array>
+
+    <string-array name="behaviourVals">
+        <item>Normal</item>
+        <item>Wakelock</item>
+        <item>Alarm</item>
+        <item>Notify</item>
+    </string-array>
+
+</resources>

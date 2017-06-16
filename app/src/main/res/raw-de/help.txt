@@ -1,0 +1,23 @@
+Dies ist eine kurze Anleitung für MultiTimer.<br>
+<br>
+Sie können Ihr Androidgerät als universelles Erinnerungswerkzeug benutzen.<br>
+<br>
+Fügen Sie einfach einen Timer (Countdown oder Erinnerung) hinzu, setzen Sie seine Parameter und starten Sie ihn.<br>
+<br>
+Ein Countdown ist ein Zähler, der von maximal 59:59&nbsp;Minuten herunterzählt (wie z.&nbsp;B. für die Ziehzeit eines schwarzen Tees von 03:00&nbsp;Minuten) und beim Stand von 00:00&nbsp;Minuten ein Signal auslöst. Er kann unterbrochen (pausiert) werden, um später fortgesetzt zu werden (wie z.&nbsp;B. bei einem Judokampf mit Unterbrechungen durch den Kampfrichter).<br>
+Eine Erinnerung erinnert Sie an einen Termin zu einer Zeit zwischen 00:00 und 23.59&nbsp;Uhr (wie z.&nbsp;B. eine Besprechung um 14:30&nbsp;Uhr). Ist die gesetzte Uhrzeit zum Start des Erinnerungstermins bereits verstrichen, wird die Uhrzeit dem Folgetag zugeschlagen. Eine Erinnerung zu pausieren, ist nicht sinnvoll, sie kann ggf. gestoppt werden.<br>
+<br>
+Sie können zu jedem Timer eine kurze Sprachnotiz aufzeichnen, die beim Auslösen des Timers abgespielt wird. Nehmen Sie keine Notiz auf, wird ein Standardton abgespielt (3 x 1319&nbsp;Hz, 125&nbsp;ms an, 125&nbsp;ms aus).<br>
+Lösen mehrere Timer zur gleichen Zeit aus, werden die Sprachnotizen bzw. ggf. die Standardtöne nacheinander abgespielt. So können Sie akustisch keinen Timer verpassen.<br>
+Ändern Sie im Bearbeitungs- oder Hinzufügemodus Sprachnotizen oder fügen Sie eine neue Sprachnotiz hinzu, werden diese nur beim Speichern auf dem Gerät gespeichert bzw. aktualisiert. Anderenfalls werden sie gelöscht. Sprachnotizen werden auch gelöscht, wenn der zugehörige Timer gelöscht wird.<br>
+<br>
+Sie haben die Möglichkeit, das App-Verhalten in den Einstellungen festzulegen:<br>
+Normale App<br>
+Verlassen Sie die Hauptaktivität der MultiTimer-App, werden keine Timer aktualisiert oder ausgelöst. Das geschieht aber, wenn Sie zur Hauptaktivität der MultiTimer-App zurückkehren.<br>
+Wakelock<br>
+Dieser Modus ist wie bei Normale App, nur dass das Abschalten des Displays deaktiviert wird, während die Hauptaktivität der MultiTimer-App im Vordergrund ist.<br>
+Alarmmodus und Systemnachricht<br>
+Ein laufender Timer löst auch aus, wenn gerade eine andere Aktivität im Vordergrund ist (eine andere App oder auch MultiTimer-Aktivitäten wie Bearbeiten oder Einstellungen). Dies kann im Alarmmodus eventuell zum Verlust von Eingaben führen, da die Hauptaktivität der MultiTimer-App in den Vordergrund geholt wird. Im Modus Systemnachricht wird lediglich eine Systemnachricht in der Statuszeile angezeigt, die beim Klicken die Hauptaktivität der MultiTimer-App in den Vordergrund holt, die aber auch einfach nur beiseite gewischt werden kann. Aktive Timer laufen auch während des Standby-Modus Ihres Gerätes weiter. Löst ein Timer während des Standby-Modus aus, wird das Gerät im Alarmmodus angeschaltet. Im Modus Systemnachricht wird nur eine Systemnachricht erzeugt, ohne dass das Gerät angeschaltet wird. Im letzteren Fall sehen Sie die Nachricht beim Anschalten Ihres Gerätes in der Statuszeile.<br>
+Wird Ihr Gerät komplett ausgeschaltet, werden laufende Timer erst beim nächsten Start der App aktualisiert und lösen ggf. aus.<br>
+<br>
+Timer zeigen in der Liste Ihrer Timer ihren Typ (Uhr für Erinnerung, Glocke für Countdown), ihre verbleibende oder auslösende Zeit sowie ihren Status an. Ein blaues Viereck steht für einen startbereiten Timer, ein roter Doppelbalken für einen pausierten Timer (nur Countdowns), ein grünes Dreieck für einen laufenden Timer und ein gelber Kreis für einen ausgelösten Timer.<br>
