@@ -46,5 +46,19 @@ their left or firing time plus their state. A blue square is a ready to run time
 a red double bar is a paused timer (countdowns only), a green triangle is a running timer<br>
 and a yellow dot is a fired timer.<br>
 <br>
-#MultiTimer
-Eine App für Erinnerungen und Countdowns.
+<br>
+# MultiTimer
+Nutzen Sie Ihr Smartphone als universelles Erinnerungswerkzeug.<br>
+<br>
+F&uuml;gen Sie einen Timer (Countdown oder Erinnerung) hinzu, setzen seine Parameter<br>
+und aktivieren Sie ihn.<br>
+Ein Countdown z&auml;hlt die Zeit von maximal 59:59&nbsp;Minuten (z.&nbsp;B. die Ziehzeit<br>
+eines Schwarzen Tees von 03:00&nbsp;Minuten) herunter und feuert ein Signal, nachdem er<br>
+die Zeit 00:00&nbsp;Minuten erreicht hat. Er kann pausiert werden, um sp&auml;ter<br>
+wieder fortgesetzt zu werden (wie z.&nbsp;B. in einem Judo-Wettkampf mit<br>
+Unterbrechung durch den Kampfrichter).<br>
+Eine Erinnerung erinnert Sie an einen Termin zwischen 00:00 und 23:59&nbsp;Uhr (z.&nbsp;B.<br>
+ein Meeting um 14:30&nbsp;Uhr). Wenn eine Erinnerung mit einer Zeit vor der aktuellen<br>
+Zeit gesetzt wird, wird die Zeit f&uuml;r den n&auml;chsten Tag angenommen.<br>
+<br>
+

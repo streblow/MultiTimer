@@ -8,16 +8,16 @@ A countdown counts down a time from maximal 59:59&nbsp;minutes (e.&nbsp;g. like 
 A reminder reminds you of a date between 00:00 and 23:59&nbsp;o'clock (e.&nbsp;g. a meeting at 14:30&nbsp;o'clock). If the reminder is set to a time, that has already passed, the time is assumed to be at the next day.<br>
 <br>
 You can make an audio recording for each timer, which is replayed, when a timer is fired. If you don't do, a default tone will be replayed (3 x 1319&nbsp;Hz, 125&nbsp;ms on, 125&nbsp;ms off).<br>
-If several timers fire at the same time, audio recordings or where necessary default tones are scheduled consecutively so you can't miss a timer acoustically<br>
-If you modify audio recordings in edit or add mode or add a new audio recording, the audio recording will be saved or updated only if you save these modification. Otherwise they are removed. Audio recordings are also removed, if the according timer is removed.<br>
+If several timers fire at the same time, audio recordings or where necessary default tones are scheduled consecutively so you can't miss a timer acoustically.<br>
+If you modify audio recordings in edit or add mode or add a new audio recording, the audio recording will be saved or updated only if you save these modification. Otherwise they are removed. Audio recordings are also removed, if the associated timer is removed.<br>
 <br>
-You can setup the app's behaviour in the settings:
+You can setup the app's behaviour in the settings:<br>
 Normal app<br>
 If you leave the main activity of the MultiTimer-App no timers are updated or fired. This happens as soon as you return to the MultiTimer-App.<br>
 Wakelock<br>
-This mode is similar to Normal app, but the display is prevented from being switched off by standby as long as the main activity of the MultiTimer-App is in the foreground.
+This mode is similar to Normal app, but the display is prevented from being switched off by standby as long as the main activity of the MultiTimer-App is in the foreground.<br>
 Alarm mode and Notify<br>
-A running timer is always fired, even if you are running another activity (another app or even a MultiTimer-activity like edit or settings). This can result in data loss in Alarm mode because the main activity of the MultiTimer-App is put into the foreground. In mode Notify a notification is displayed in the status bar where a click activates the main activity of the MultiTimer-App but which also just can be swept away. All running timers are also active during standby mode. If a running timer fires during standby mode, the device is waked up in Alarm mode. In mode Notify a notification is created without switching the device on. In the last case you will see the notification in the status bar when you turn on your device.<br>
+A running timer is always fired, even if you are running another activity (another app or even another MultiTimer-activity like edit or settings). This can result in data loss in Alarm mode because the main activity of the MultiTimer-App is put into the foreground. In mode Notify a notification is displayed in the status bar. A click activates the main activity of the MultiTimer-App. You can also just sweep away the notification. All running timers are also active during standby mode. If a running timer fires during standby mode, the device is waked up in Alarm mode. In mode Notify a notification is created without switching the device on. In the last case you will see the notification in the status bar when you turn on your device.<br>
 If your device is switched off completely, all running timers are updated and fired if applicable after the app is launched again.<br>
 <br>
-All timers show their type in the list view (a clock for reminders, a bell for countdowns), their left or firing time plus their state. A blue square is a ready to run timer, a red double bar is a paused timer (countdowns only), a green triangle is a running timer and a yellow dot is a fired timer.<br>
+All timers show their type in the list view (a clock for reminders, a bell for countdowns), their left or firing time plus their state: a blue square is a ready to run timer, a red double bar is a paused timer (countdowns only), a green triangle is a running timer and a yellow dot is a fired timer.<br>
