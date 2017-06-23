@@ -73,7 +73,7 @@ des Timers abgespielt wird. Nehmen Sie keine Notiz auf, wird ein Standardton abg
 (3 x 1319&nbsp;Hz, 125&nbsp;ms an, 125&nbsp;ms aus).<br>
 L&ouml;sen mehrere Timer zur gleichen Zeit aus, werden die Sprachnotizen bzw. ggf. die<br>
 Standardt&ouml;ne nacheinander abgespielt. So k&ouml;nnen Sie akustisch keinen Timer verpassen.<br>
-&auml;ndern Sie im Bearbeitungs- oder Hinzuf&uuml;gemodus Sprachnotizen oder f&uuml;gen Sie eine neue<br>
+&Auml;ndern Sie im Bearbeitungs- oder Hinzuf&uuml;gemodus Sprachnotizen oder f&uuml;gen Sie eine neue<br>
 Sprachnotiz hinzu, werden diese nur beim Speichern auf dem Ger&auml;t gespeichert bzw. aktualisiert.<br>
 Anderenfalls werden sie gel&ouml;scht. Sprachnotizen werden auch gel&ouml;scht, wenn der zugeh&ouml;rige<br>
 Timer gel&ouml;scht wird.<br>
