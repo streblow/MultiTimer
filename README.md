@@ -1,6 +1,9 @@
-# MultiTimer
+<h1>MultiTimer</h1>
 Deutsch weiter unten!<br>
-<br>
+<p>
+<img src="device-2017-06-23-100000.png"> <img src="device-2017-06-23-100001.png"><br>
+<img src="device-2017-06-23-100002.png"> <img src="device-2017-06-23-100003.png">
+</p>
 You can use your android device as a universal reminder tool.<br>
 <br>
 Just add a timer (countdown or reminder), set its parameters and activate it.<br>
@@ -47,7 +50,11 @@ a red double bar is a paused timer (countdowns only), a green triangle is a runn
 and a yellow dot is a fired timer.<br>
 <br>
 <br>
-# MultiTimer
+<h1>MultiTimer</h1>
+<p>
+<img src="device-2017-06-23-100000.png"> <img src="device-2017-06-23-100001.png"><br>
+<img src="device-2017-06-23-110002.png"> <img src="device-2017-06-23-110003.png">
+</p>
 Nutzen Sie Ihr Smartphone als universelles Erinnerungswerkzeug.<br>
 <br>
 F&uuml;gen Sie einen Timer (Countdown oder Erinnerung) hinzu, setzen seine Parameter<br>
@@ -61,4 +68,38 @@ Eine Erinnerung erinnert Sie an einen Termin zwischen 00:00 und 23:59&nbsp;Uhr (
 ein Meeting um 14:30&nbsp;Uhr). Wenn eine Erinnerung mit einer Zeit vor der aktuellen<br>
 Zeit gesetzt wird, wird die Zeit f&uuml;r den n&auml;chsten Tag angenommen.<br>
 <br>
-
+Sie k&ouml;nnen zu jedem Timer eine kurze Sprachnotiz aufzeichnen, die beim Ausl&ouml;sen<br>
+des Timers abgespielt wird. Nehmen Sie keine Notiz auf, wird ein Standardton abgespielt<br>
+(3 x 1319&nbsp;Hz, 125&nbsp;ms an, 125&nbsp;ms aus).<br>
+L&ouml;sen mehrere Timer zur gleichen Zeit aus, werden die Sprachnotizen bzw. ggf. die<br>
+Standardt&ouml;ne nacheinander abgespielt. So k&ouml;nnen Sie akustisch keinen Timer verpassen.<br>
+&auml;ndern Sie im Bearbeitungs- oder Hinzuf&uuml;gemodus Sprachnotizen oder f&uuml;gen Sie eine neue<br>
+Sprachnotiz hinzu, werden diese nur beim Speichern auf dem Ger&auml;t gespeichert bzw. aktualisiert.<br>
+Anderenfalls werden sie gel&ouml;scht. Sprachnotizen werden auch gel&ouml;scht, wenn der zugeh&ouml;rige<br>
+Timer gel&ouml;scht wird.<br>
+<br>
+Sie haben die M&ouml;glichkeit, das App-Verhalten in den Einstellungen festzulegen:<br>
+Normale App<br>
+Verlassen Sie die Hauptaktivit&auml;t der MultiTimer-App, werden keine Timer aktualisiert oder<br>
+ausgel&ouml;st. Das geschieht aber, wenn Sie zur Hauptaktivit&auml;t der MultiTimer-App zur&uuml;ckkehren.<br>
+Wakelock<br>
+Dieser Modus ist wie bei Normale App, nur dass das Abschalten des Displays deaktiviert wird,<br>
+w&auml;hrend die Hauptaktivit&auml;t der MultiTimer-App im Vordergrund ist.<br>
+Alarmmodus und Systemnachricht<br>
+Ein laufender Timer l&ouml;st auch aus, wenn gerade eine andere Aktivit&auml;t im Vordergrund ist (eine<br>
+andere App oder auch andere MultiTimer-Aktivit&auml;ten wie Bearbeiten oder Einstellungen). Dies<br>
+kann im Alarmmodus eventuell zum Verlust von Eingaben f&uuml;hren, da die Hauptaktivit&auml;t der<br>
+MultiTimer-App in den Vordergrund geholt wird. Im Modus Systemnachricht wird lediglich eine<br>
+Systemnachricht in der Statuszeile angezeigt, die beim Klicken die Hauptaktivit&auml;t der<br>
+MultiTimer-App in den Vordergrund holt, die aber auch einfach nur beiseite gewischt werden<br>
+kann. Aktive Timer laufen auch w&auml;hrend des Standby-Modus Ihres Ger&auml;tes weiter. L&ouml;st ein<br>
+Timer w&auml;hrend des Standby-Modus aus, wird das Ger&auml;t im Alarmmodus angeschaltet. Im Modus<br>
+Systemnachricht wird nur eine Systemnachricht erzeugt, ohne dass das Ger&auml;t angeschaltet wird.<br>
+Im letzteren Fall sehen Sie die Nachricht beim Anschalten Ihres Ger&auml;tes in der Statuszeile.<br>
+Wird Ihr Ger&auml;t komplett ausgeschaltet, werden laufende Timer erst beim n&auml;chsten Start der App<br>
+aktualisiert und l&ouml;sen ggf. aus.<br>
+<br>
+Timer zeigen in der Liste Ihrer Timer ihren Typ (Uhr f&uuml;r Erinnerung, Glocke f&uuml;r Countdown),<br>
+ihre verbleibende oder ausl&ouml;sende Zeit sowie ihren Status an: ein blaues Viereck steht f&uuml;r<br>
+einen startbereiten Timer, ein roter Doppelbalken f&uuml;r einen pausierten Timer (nur Countdowns),<br>
+ein gr&uuml;nes Dreieck f&uuml;r einen laufenden Timer und ein gelber Kreis f&uuml;r einen ausgel&ouml;sten Timer.<br>
