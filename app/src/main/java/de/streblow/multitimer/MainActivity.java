@@ -12,9 +12,11 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 import java.util.Locale;
 import java.util.TimeZone;
 
+import android.Manifest;
 import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.AlertDialog;
@@ -23,11 +25,13 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.media.Ringtone;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
+import android.support.v4.app.ActivityCompat;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -38,6 +42,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ImageButton;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -379,6 +384,7 @@ public class MainActivity extends Activity {
 				}
 			}
 		};
+		askPermissions(new String[]{Manifest.permission.RECORD_AUDIO});
 	}
 
 	@Override
@@ -1000,6 +1006,38 @@ public class MainActivity extends Activity {
 				File file = new File(getFilesDir() + "/" + tempAudioFilename);
 				file.delete();
 			}
+		}
+	}
+
+	// With Android Level >= 23, you have to ask the user
+	// for permission with device (For example read/write data on the device).
+	private void askPermissions(String[] permissionNames) {
+		if (android.os.Build.VERSION.SDK_INT >= 23) {
+			// Check if we have permission
+			List<String> permissionNeeded = new ArrayList<String>();
+			for (int i = 0; i < permissionNames.length; i++) {
+				int permission = ActivityCompat.checkSelfPermission(this, permissionNames[i]);
+				if (permission != PackageManager.PERMISSION_GRANTED) {
+					permissionNeeded.add(permissionNames[i]);
+				}
+			}
+			if (permissionNeeded.size() != 0) {
+				String[] permissionNeededArray = new String[permissionNeeded.size()];
+				permissionNeeded.toArray(permissionNeededArray);
+				// If don't have permission so prompt the user.
+				this.requestPermissions(permissionNeededArray, 100);
+			}
+		}
+	}
+
+	// When you have the request results
+	@Override
+	public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+
+		super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+		// Note: If request is cancelled, the result arrays are empty.
+		if (grantResults.length == 0) {
+			Toast.makeText(getApplicationContext(), "Permission Cancelled!", Toast.LENGTH_SHORT).show();
 		}
 	}
 
