@@ -358,7 +358,7 @@ public class EditActivity extends Activity {
 				intent.putExtra("mediapath", mediapath);
 				intent.putExtra("hasmedia", hasmedia);
 				intent.putExtra("mediachanged", mediachanged);
-				if (ringtonepath != null)
+				if (!hasmedia && (ringtonepath != null))
 					intent.putExtra("ringtonepath", ringtonepath);
 				time1 = np1.getValue();
 				time2 = np2.getValue();
