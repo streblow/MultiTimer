@@ -1,6 +1,6 @@
 <h2>MultiTimer</h2>
-<b>Version 1.2 (build 3)</b><br>
-&#169; 2020-03-02 Lars Streblow<br>
+<b>Version 2.0 (build 4)</b><br>
+&#169; 2020-03-20 Lars Streblow<br>
 <br>
 streblow.gmxhome.de<br>
 lars.streblow@gmx.de

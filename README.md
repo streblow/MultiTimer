@@ -1,8 +1,8 @@
 <h1>MultiTimer</h1>
 Deutsch weiter unten!<br>
 <p>
-<img src="device-2017-06-23-100000.png"> <img src="device-2017-06-23-100001.png"><br>
-<img src="device-2017-06-23-100002.png"> <img src="device-2017-06-23-100003.png">
+<img src="device-2020-03-20-100000.png"> <img src="device-2020-03-20-100001.png"><br>
+<img src="device-2020-03-20-100002.png"> <img src="device-2020-03-20-100003.png">
 </p>
 You can use your android device as a universal reminder tool.<br>
 <br>
@@ -52,8 +52,8 @@ and a yellow dot is a fired timer.<br>
 <br>
 <h1>MultiTimer</h1>
 <p>
-<img src="device-2017-06-23-100000.png"> <img src="device-2017-06-23-100001.png"><br>
-<img src="device-2017-06-23-110002.png"> <img src="device-2017-06-23-110003.png">
+<img src="device-2020-03-20-100000.png"> <img src="device-2020-03-20-100001.png"><br>
+<img src="device-2020-03-20-110002.png"> <img src="device-2020-03-20-110003.png">
 </p>
 Nutzen Sie Ihr Smartphone als universelles Erinnerungswerkzeug.<br>
 <br>

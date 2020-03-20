@@ -1,8 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="${packageName}.${activityClass}" >
+    android:layout_height="match_parent" >
 
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView"
@@ -20,42 +19,48 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/main_start"
-            android:src="@drawable/play" />
+            android:src="@drawable/play"
+            android:background="@drawable/button"/>
     
         <ImageButton
             android:id="@+id/ImageButtonPause"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/main_pause"
-            android:src="@drawable/pause" />
+            android:src="@drawable/pause"
+            android:background="@drawable/button"/>
     
         <ImageButton
             android:id="@+id/ImageButtonStop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/main_stop"
-            android:src="@drawable/stop" />
+            android:src="@drawable/stop"
+            android:background="@drawable/button"/>
     
         <ImageButton
             android:id="@+id/ImageButtonEdit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/main_edit"
-            android:src="@drawable/edit" />
+            android:src="@drawable/edit"
+            android:background="@drawable/button"/>
     
         <ImageButton
             android:id="@+id/ImageButtonAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/main_add"
-            android:src="@drawable/add" />
+            android:src="@drawable/add"
+            android:background="@drawable/button"/>
     
         <ImageButton
             android:id="@+id/ImageButtonRemove"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/main_remove"
-            android:src="@drawable/remove" />
+            android:src="@drawable/remove"
+            android:background="@drawable/button"/>
 
         </LinearLayout>
 

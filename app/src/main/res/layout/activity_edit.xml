@@ -115,7 +115,8 @@
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
                     android:contentDescription="@string/edit_start"
-                    android:src="@drawable/record" />
+                    android:src="@drawable/record"
+                    android:background="@drawable/button"/>
 
                 <ImageButton
                     android:id="@+id/buttonStop"
@@ -126,7 +127,8 @@
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@+id/buttonRecord"
                     android:contentDescription="@string/edit_stop"
-                    android:src="@drawable/stop" />
+                    android:src="@drawable/stop"
+                    android:background="@drawable/button"/>
 
                 <ImageButton
                     android:id="@+id/buttonPlay"
@@ -137,7 +139,8 @@
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@+id/buttonStop"
                     android:contentDescription="@string/edit_play"
-                    android:src="@drawable/play" />
+                    android:src="@drawable/play"
+                    android:background="@drawable/button"/>
 
                 <ImageButton
                     android:id="@+id/buttonDelete"
@@ -148,7 +151,8 @@
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@+id/buttonPlay"
                     android:contentDescription="@string/edit_delete"
-                    android:src="@drawable/delete" />
+                    android:src="@drawable/delete"
+                    android:background="@drawable/button"/>
 
                 <ImageButton
                     android:id="@+id/buttonOpen"
@@ -159,7 +163,8 @@
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@+id/buttonDelete"
                     android:contentDescription="@string/edit_open"
-                    android:src="@drawable/open" />
+                    android:src="@drawable/open"
+                    android:background="@drawable/button"/>
 
                 </RelativeLayout>
 
@@ -169,21 +174,31 @@
             android:id="@+id/buttonSave"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            android:paddingEnd="20dp"
+            android:paddingRight="20dp"
             android:layout_alignParentLeft="true"
             android:layout_below="@id/horizontalScrollView"
             android:layout_marginTop="40dp"
             android:layout_marginLeft="40dp"
-            android:text="@string/edit_save" />
+            android:text="@string/edit_save"
+            android:background="@drawable/button"/>
 
         <Button
             android:id="@+id/buttonCancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            android:paddingEnd="20dp"
+            android:paddingRight="20dp"
             android:layout_alignBottom="@+id/buttonSave"
             android:layout_alignTop="@+id/buttonSave"
             android:layout_marginLeft="40dp"
             android:layout_toRightOf="@+id/buttonSave"
-            android:text="@string/edit_cancel" />
+            android:text="@string/edit_cancel"
+            android:background="@drawable/button" />
 
     </RelativeLayout>
 </ScrollView>
